@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 1.5px;
+}
+
+.navbar  {
+    display: inline;
+    color: black;
+    font-style: italic;
+    }
+
+.center {
+    text-align: center;
+}
+
+/* global style for all links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+#logo {
+    display: block;
+    padding-right: 40px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+        
+    }
+
+
+#search, input[type="search"] {
+    display: inline;
+    width:400px;
+    margin-bottom: 1rem;
+}
+
+#left-button {
+    display: inline;
+    text-align: center;
+    margin-left: 40%;
+    width: 200px;
+    background-color: lightgray;
+}
+#right-button {
+    display: inline;
+    width: 200px;
+    background-color: lightgray;
+}
+
+
+footer {
+    background-color: lightgray;
+    margin-top: 600px;
+    padding: 1px;
+}
+
+.left-footer {
+    display: inline;
+
+}
+
+.right-footer {
+    display: inline;
+    float: right;
+}
+
+
+footer ul li, a {
+    display: inline;
+    padding: 4px;
+}
+
